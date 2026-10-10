@@ -1,15 +1,16 @@
-with cte as
+with cte as 
 (
     select 
     e.managerId,
     x.name,
-    count(e.managerId ) as s
+    count(e.id) as NumberOfEmplaoy
     from Employee as e
-    inner join Employee as x
-    on e.managerId  = x.id
-    group by e.managerId,x.name
+     join  Employee as x
+    on e.managerId = x.id
+    where e.managerId is not null
+    group by e.managerId , x.name
 )
-select
-f.name
-from cte as f
-where f.s>= 5
+select 
+ x.name
+from cte as x
+where NumberOfEmplaoy > = 5
