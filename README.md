@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0178-rank-scores](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0178-rank-scores) |
 | [0180-consecutive-numbers](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0180-consecutive-numbers) |
 | [0182-duplicate-emails](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0182-duplicate-emails) |
+| [0183-customers-who-never-order](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0183-customers-who-never-order) |
 | [0184-department-highest-salary](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0184-department-highest-salary) |
 | [0185-department-top-three-salaries](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0185-department-top-three-salaries) |
 | [0197-rising-temperature](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/0197-rising-temperature) |
