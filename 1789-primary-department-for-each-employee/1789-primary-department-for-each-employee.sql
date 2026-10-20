@@ -5,11 +5,7 @@ with cte as
     e.department_id,
     e.primary_flag,
     case
-    when  e.primary_flag  = 'Y'  or         (
-                    SELECT COUNT(*)
-                    FROM Employee AS x
-                    WHERE x.employee_id = e.employee_id
-                 ) = 1 then 1
+    when  e.primary_flag  = 'Y'  or (select count(*) from Employee as x where e.employee_id = x.employee_id )=1  then 1
     else 0
     end isprimary
     from Employee as e
