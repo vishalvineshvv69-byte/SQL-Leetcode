@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-invalid-tweets](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1683-invalid-tweets) |
 | [1729-find-followers-count](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1729-find-followers-count) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
+| [1789-primary-department-for-each-employee](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1789-primary-department-for-each-employee) |
 | [1934-confirmation-rate](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1934-confirmation-rate) |
 | [1978-employees-whose-manager-left-the-company](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/1978-employees-whose-manager-left-the-company) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/vishalvineshvv69-byte/SQL-Leetcode/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
