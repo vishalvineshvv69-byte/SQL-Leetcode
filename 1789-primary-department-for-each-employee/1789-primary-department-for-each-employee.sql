@@ -4,10 +4,7 @@ with cte as
     e.employee_id ,
     e.department_id,
     e.primary_flag,
-    case
-    when  e.primary_flag  = 'Y'  or (select count(*) from Employee as x where e.employee_id = x.employee_id )=1  then 1
-    else 0
-    end isprimary
+    count(e.department_id) over(partition by e.employee_id) as Wcount
     from Employee as e
 ),
 cte2 as 
@@ -16,7 +13,7 @@ cte2 as
     c.employee_id,
     c.department_id
     from cte as c
-    where isprimary = 1
+    where primary_flag = 'Y' or  Wcount = 1 
 )
 select
 employee_id ,
